@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+$spectreColor: #3e9eff;
+.spectre-color-set {
+  background: $spectreColor !important;
+}
+
+.nav-link {
+  color: white !important;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  display: block;
+
+  &:hover {
+    color: red !important;
+  }
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+  color: white !important;
+  border-radius: 0;
+  background-image: url("../img/jumbotron-bg.jpg");
+  background-size: cover;
+  background-position: right;
+
+}
+
+.advantages {
+  .advantage-wrapper {
+    .advantage {
+      width: 200px;
+      height: 200px;
+      padding: 0;
+      border: 2px solid #4e555b;
+      border-radius: 50%;
+    }
+  }
+}

@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <title>СПЕКТР-ЛЦ</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="resource/css/style.css">
 </head>
 <body>
 <header>
@@ -16,7 +16,7 @@
      -->
     <nav class="navbar navbar-expand-sm bg-light justify-content-start spectre-color-set">
         <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="Logo" style="width:40px;">
+            <img src="resource/img/logo.png" alt="Logo" style="width:40px;">
         </a>
         <!-- Links -->
         <ul class="navbar-nav">
@@ -45,7 +45,7 @@
     </nav>
 </header>
 <main>
-    <div class="jumbotron">
+    <div class="jumbotron bg">
         <h1 class="display-4"><strong>Спектр-ЛЦ</strong></h1>
         <p class="lead">Аппарат лазерно-светодиодный терапевтический</p>
         <hr class="my-4">
@@ -54,20 +54,41 @@
             <a class="btn btn-primary btn-lg" href="#" role="button">Описание</a>
         </p>
     </div>
-    <div class="advantages">
-        <div class="advantage">Наличие
-            технического
-            и сервисного
-            обслуживания</div>
-        <div class="advantage">Наличие
-            методической
-            базы</div>
-        <div class="advantage">Гарантийный
-            срок 12 месяцев</div>
-        <div class="advantage">Качество
-            по разумной
-            стоимости</div>
+    <div class="container">
+        <div class="advantages row d-flex justify-content-between">
+            <div class="advantage-wrapper col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center my-5">
+                <div class="advantage bg-danger d-flex">
+                    <p class="justify-content-center align-self-center">
+                        Наличие
+                        технического
+                        и сервисного
+                        обслуживания
+                    </p>
+
+            </div>
+            </div>
+            <div class="advantage-wrapper col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center my-5">
+                <div class="advantage">
+                Наличие
+                методической
+                базы
+            </div></div>
+            <div class="advantage-wrapper col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center my-5">
+                <div class="advantage">
+                Гарантийный
+                срок 12 месяцев
+            </div>
+
+                </div>
+            <div class="advantage-wrapper col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center my-5">
+                <div class="advantage">
+                    Качество
+                    по разумной
+                    стоимости
+            </div></div>
+        </div>
     </div>
+
 </main>
 </body>
 </html>
